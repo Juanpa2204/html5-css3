@@ -4,22 +4,37 @@
     <head>
         <meta charset="UTF-8">
         <title>barberia alura</title>
-        <link rel="stylesheet" href="style-home.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header><h1 class="titulo-principal">Barberia Alura</h1></header>
-        <img id="banner" src="img/banner.jpg" alt="salon">
-        <div class="principal"> 
-            <h2 class="tituloCentralizado">Sobre la Barbería Alura</h2>
+        <header>
+            <div class="caja">
+                 <h1><img src="/img/imagenes/logo.png" alt="logo"></h1>
+                <nav>
+                    <ul class="navegacion">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <img class="banner" src="img/banner.jpg" alt="salon">
+
+    <main> 
+        <section class="principal"> 
+
+            <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
 
             <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p> 
 
             <p id="mision"><em>Nuestra misión es: <strong> "Proporcionar autoestima y calidad de vida a nuestros clientes".</strong></em></p>
             
             <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p>
-        </div>
-        <div class="diferenciales">
-            <h3 class="tituloCentralizado">Diferenciales</h3>
+        </section>
+        <section class="diferenciales">
+            <h3 class="titulo-principal">Diferenciales</h3>
             <ul>
                 <li class="items">Atencion personalizada a nuestros clientes</li>
                 <li class="items">Espacio diferenciado</li>
@@ -27,7 +42,12 @@
                 <li class="items">Profesionales calificados</li>
             </ul>
             <img src="/img/diferenciales.jpg" class="imagenDiferenciales">
-        </div>
+        </section>
+    </main>
+    <footer>
+        <img src="img/imagenes/logo-blanco.png" alt="logo">    
+        <p class="copyright">&copy copyright barberia alura-2023</p>
+    </footer>
     </body>
 </html>
 
