@@ -82,12 +82,6 @@ footer{
     margin: 20px;
 }
 
-main{
-    width: 940px;
-    margin: 0 auto;
-
-}
-
 form{
     margin: 40px 0;
 }
@@ -144,6 +138,13 @@ td, th{
     width: 100%;
 }
 
+.principal{
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .titulo-principal{
     text-align: center;
     font-size: 2em;
@@ -171,17 +172,58 @@ td, th{
 
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
 }
 
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
 }
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:before{
+    content: "★";
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
 .imagenDiferenciales{
     width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 10px #000000;
 }
+.imagenDiferenciales:hover{
+    opacity: 30%;
+}
+
 .video{
     width: 560px;
+    padding: 50px 0;
     margin: 1em auto;
 }
 
