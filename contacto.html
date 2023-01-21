@@ -5,6 +5,7 @@
     <title> Contacto - Barberia alura</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,7 +20,7 @@
             </nav>
         </div>
     </header>
-    <main>
+    <main class="contacto">
         <form action="">
             <label for="nombreApellido">Nombre y Apellido</label>
             <input type="text" id="nombreApellido" class="input-padron" required>
@@ -33,7 +34,7 @@
             <label for="mensaje">Mensaje</label>
             <textarea id="mensaje" cols="70" rows="10"></textarea class="input-padron" required>
 
-            <fieldset>
+            <fieldset class="modo-contacto">
                 <legend>Como le gustaria que lo contactemos?</legend>
 
                 <label for="radio-email"><input type="radio" name="contacto" id="radio-email" value="email">Email</label>
